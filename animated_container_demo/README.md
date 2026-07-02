@@ -19,12 +19,9 @@ automatically animates from the old values to the new ones — no
 1. Make sure you have Flutter installed (`flutter --version` to check).
 2. Clone this repo:
    ```
-   git clone https://github.com/YOUR_USERNAME/animated_container_demo.git
-   cd animated_container_demo
+  
    ```
-3. Get the packages:
-   ```
-   flutter pub get
+   fl
    ```
 4. Run it on an emulator, simulator, or connected device:
    ```
@@ -46,26 +43,8 @@ I'm also changing `decoration` (color + `borderRadius`) at the same time
 just to make the demo feel more like a real "like" interaction, but the
 three I'll walk through in detail during the talk are the ones above.
 
-**Why a developer would touch these in real life:**
-- `duration` — too short feels glitchy, too long feels sluggish. Tuning
-  it is how you make an app feel "snappy" instead of laggy.
-- `curve` — using `linear` everywhere is one of the easiest ways to make
-  an app feel cheap. `easeInOut` (or similar) is what most production
-  apps actually use for UI transitions.
-- `width`/`height` — animating size is how apps give feedback that
-  something was tapped/selected without needing a separate animation
-  widget for every interaction.
 
-## Screenshot
 
-![Card before and after tapping](screenshot.png)
-
-*(Left: default state. Right: after tapping — card grows, turns pink,
-and becomes a circle.)*
-
-## Presentation date
-
-In-class presentation date: **[FILL IN THE DATE YOU ACTUALLY PRESENT]**
 
 ## Credits
 
